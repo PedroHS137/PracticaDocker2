@@ -11,7 +11,7 @@ app.use(express.json())
 app.use(express.urlencoded({extended:true}))
 
 app.get('/Autores',(req, res)=>{
-    console.log("hentai");
+    //console.log("hentai");
     res.statusCode = 200;
     res.send({"autor1":"PedroHS","autor2":"HectorZ"})
     //res.sendFile(path.join(__dirname, 'html', 'index.html'))
